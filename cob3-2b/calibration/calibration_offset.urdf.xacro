@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<robot>
+<?xml version="1.0" ?><robot>
 	<!-- ***************** -->
 	<!-- base calibration -->
 	<!-- ***************** -->
@@ -77,10 +76,10 @@
 
 	<!-- torso reference positions | used as calibration_rising for torso chain -->
 	<!-- ! set these values to make torso straight with (0, 0, 0) joint angles ! -->
-	<property name="offset_torso_lower_neck_pan_ref" value="0.0" />
-	<property name="offset_torso_lower_neck_tilt_ref" value="0.0" />
-	<property name="offset_torso_upper_neck_pan_ref" value="0.0" />
-	<property name="offset_torso_upper_neck_tilt_ref" value="0.0" />
+	<property name="offset_torso_lower_neck_pan_ref" value="0.00028559934435166414"/>
+	<property name="offset_torso_lower_neck_tilt_ref" value="-0.04335788264868224"/>
+	<property name="offset_torso_upper_neck_pan_ref" value="-0.00018662936054279896"/>
+	<property name="offset_torso_upper_neck_tilt_ref" value="-0.014643456786875477"/>
 
 	<!-- tray reference position | used as calibration_rising for tray chain -->
 	<property name="offset_tray_ref" value="0.0"/>
